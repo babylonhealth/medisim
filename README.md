@@ -114,4 +114,4 @@ At Babylon we believe it’s possible to put an accessible and affordable health
 
 If you are interested in helping us build the future of healthcare, please find our open roles [here](https://jobs.lever.co/babylonhealth?lever-via=LLeodZVvTU).
 
-Follow us on Twitter @Babylon_Eng or go to babylonhealth.com for more information
+Follow us on Twitter @Babylon_Eng or go to [babylonhealth.com](babylonhealth.com) for more information
