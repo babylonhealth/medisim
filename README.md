@@ -1,5 +1,5 @@
 # medisim :pill:
-**medisim** is a collection of new large-scale **medi**cal term **sim**ilarity dataset based on SNOMED-CT.
+**medisim** is a collection of new large-scale **medi**cal term **sim**ilarity datasets based on SNOMED-CT.
 The code in this repository creates the collection of datasets.
 
 If you use one of these datasets in your research, please cite
@@ -63,7 +63,7 @@ There are further arguments to control the dataset creation, however changing th
 `positive_instances_from_labels()` creates two datasets:
 * **FSN-SYN**: for each active SNOMED concept *c*, create pairs *FSN(c) - synonym(c)* using the one fully specified name (FSN)
  and all the synonyms of *c*
-* **SYN-SYN**: or each active SNOMED concept *c*, create pairs *label1(c) - label2(c)* using all labels (i.e. synoyms and FSN)
+* **SYN-SYN**: for each active SNOMED concept *c*, create pairs *label1(c) - label2(c)* using all labels (i.e. synonyms and FSN)
 of *c*
 
 The `sct2_Concept_Full_INT_20190131.txt` file is used to check if concepts are active and that they are
@@ -73,7 +73,7 @@ Concept labels are then extracted from the `sct2_Description_Full-en_INT_2019013
 
 In most cases FSNs end with a parenthesis indicating the concept's semantic type and there is exactly the same
  synonym without the paranthesis.
-Thus, parenthesese are deleted from the FSN and the same synonym is disregarded to not create pairs of
+Thus, parentheses are deleted from the FSN and the same synonym is disregarded to not create pairs of
  exactly the same labels.
 
 
@@ -92,7 +92,7 @@ The type of replacement and the replacing concept are specified in `der2_cRefset
 
 For each deleted concept and its replacement concept, the FSNs of both concepts are used, which are obtained from
 the `sct2_Description_Full-en_INT_20190131.txt` file.
-Again, parenthesis indicating the concept's semantic type are deleted from the FSN, as well as '[D]' in the label, which 
+Again, parentheses indicating the concept's semantic type are deleted from the FSN, as well as '[D]' in the label, which 
 indicates that the concept is deprecated. 
 
 
