@@ -107,3 +107,11 @@ positive ones using two strategies:
 smallest Levenshtein distance to `term1`, while not forming a positive instance with `term1` or with any of its 
 similar terms (as given by the positive instances containing `term1`).\
  This creates datasets with names ending `_advanced`.
+
+
+## About Babylon
+At Babylon we believe it’s possible to put an accessible and affordable health service in the hands of every person on earth. The technology we use is at the heart and soul of that mission. Babylon is a Healthcare Platform, currently providing online consultations via in-app video and phone calls, AI-assisted Triage and Predictive Health Assistance.
+
+If you are interested in helping us build the future of healthcare, please find our open roles here[https://jobs.lever.co/babylonhealth?lever-via=LLeodZVvTU].
+
+Follow us on Twitter @Babylon_Eng or go to babylonhealth.com for more information
