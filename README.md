@@ -15,7 +15,7 @@ pages={to appear}
 }
 ```
 
-**Contact:** Claudia Schulz <claudia.schulz@babylonhealth.com> or Damir Juric <damir.juric@babylonhealth.com>
+**Contact:** Claudia Schulz <clauschulz1812@gmail.com> or Damir Juric <damir.juric@babylonhealth.com>
 
 
 ## Dependencies
